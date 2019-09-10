@@ -1,0 +1,93 @@
+﻿.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.mainRspv {
+    margin: 0% 30% 0 30%;
+    background: red;
+}
+
+.rsvpname {
+    background: #D5D1D0;
+    height: 50px;
+}
+
+.thanks {
+    color: #000;
+    background: antiquewhite;
+}
+
+.myform {
+    margin-left: 15%;
+}
+
+.textthanks {
+    text-align: center;
+    color: purple;
+    background: #F3E5AB;
+    height: 200px;
+    padding: 1px 0 0 0;
+}
+
+.texterror {
+    text-align: center;
+    color: red;
+}
+
+b, strong {
+    margin-left: 28%;
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
+
+.jumbotron, .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 6px;
+    background: #F3E5AB;
+}
+
+.myimage {
+    width: 100%;
+    margin-right: 20%;
+}
+
+.mainfooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: lavender;
+    height: 50px;
+    padding-top: 15px;
+}
+
+
+
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+.container-fluid > li > a 
+{
+    color: white;
+}

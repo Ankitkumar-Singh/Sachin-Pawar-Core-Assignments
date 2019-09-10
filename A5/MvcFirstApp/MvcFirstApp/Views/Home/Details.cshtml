@@ -1,0 +1,55 @@
+﻿@model MvcFirstApp.Models.Movie
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>StudentDetails</title>
+</head>
+<body>
+    @* Showing movie details *@
+    <div>
+        <h4>Student Details</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                <label asp-for="Id">Movie ID</label>
+            </dt>
+            <dd class="col-sm-10">
+                <label asp-for="Id">@Model.Id</label>
+            </dd>
+
+            <dt class="col-sm-2">
+                <label asp-for="Title">Movie Title</label>
+            </dt>
+            <dd class="col-sm-10">
+                <label asp-for="Title">@Model.Title</label>
+            </dd>
+            
+            <dt class="col-sm-2">
+                <label asp-for="MovieType">Movie Type</label>
+            </dt>
+            <dd class="col-sm-10">
+                <label asp-for="MovieType">@Model.MovieType</label>
+            </dd>           
+            
+            <dt class="col-sm-2">
+                <label asp-for="MovieStar">Movie Star</label>
+            </dt>
+            <dd class="col-sm-10">
+                <label asp-for="MovieStar">@Model.MovieStar</label>
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Index" class="btn btn-info">Back</a>
+    </div>
+</body>
+</html>
